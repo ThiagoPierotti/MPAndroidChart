@@ -17,6 +17,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+        development {
+        }
+        staging {
+        }
     }
     testOptions {
         unitTests.returnDefaultValues = true // this prevents "not mocked" error
